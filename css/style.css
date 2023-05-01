@@ -144,9 +144,16 @@ header {
     position: absolute;
     padding-right: 30px;
     font-size: 15px;
-
-
   }
+
+.links{
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  margin: 50px;
+}
+  
   li{
     background-color:white; 
     padding: 10px; 
