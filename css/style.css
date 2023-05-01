@@ -1,0 +1,174 @@
+body {
+  margin: 10px;
+  padding: 100px;
+  font-family: Arial, sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  color: rgb(156, 26, 26);
+}
+
+header {
+  background-color: #ffffff;
+  padding: 2px;
+  text-align: center;
+  background-image: url("../images/pexels.jpg");
+  background-size: cover;
+  color: rgb(156, 26, 26);
+}
+  
+  
+  h1 {
+    font-size: 60px;
+    background-color: white;
+    color: rgb(156, 26, 26);
+    font-family: "Bubblegum Sans", cursive;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 20px;
+    background-color: white;
+    font-family:"sans-serif";
+    text-align: center;
+    color: rgb(156, 26, 26);
+    
+    
+  }
+
+  .directions{
+    color:rgb(156, 26, 26);
+  }
+
+  p{
+    background-color:white;
+    padding:2px;
+    font: size 10px;
+    font-family:"sans-serif";
+    color: rgb(156, 26, 26);
+
+  }
+
+  h3{
+    font-size: 30px;
+    background-color: white;
+    font-family:"sans-serif";
+    color:rgb(156, 26, 26);
+  }
+
+  h4{
+    font-size: 30px;
+    background-color: white;
+    color:rgb(156, 26, 26);
+    font-family:"sans-serif";
+  }
+  h5{
+    font-size: 30px;
+    background-color: #ffffff;
+    font-family:sans-serif;
+    color:rgb(156, 26, 26)
+  }
+  nav {
+    background-color: gray;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  white;
+    color:rgb(156, 26, 26);
+    text-align: right;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  /* Add hover effect */
+  nav a:hover {
+    background-color: #e8e8e8;
+  }
+
+  a {
+    color:black;
+  }
+  
+  /* Add active effect */
+  nav a.active {
+    background-color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  ul{
+    background-color:white; 
+    padding-left: 50px; 
+    display: inline-block;
+    margin: 20px;
+    font-size: 15px;
+
+
+  }
+  .ing1{
+    background-color: white; 
+    padding-left: 50px; 
+    display: inline-block;
+    position: absolute;
+    padding-right: 30px;
+    font-size: 15px;
+
+
+  }
+  li{
+    background-color:white; 
+    padding: 10px; 
+    font-size: 15px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: white;
+    color: rgb(156, 26, 26);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: rgb(156, 26, 26);
+    padding: 0px;
+  }
